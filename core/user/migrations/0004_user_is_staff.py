@@ -4,15 +4,14 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('core_user', '0003_user_posts_liked'),
+        ("core_user", "0003_user_posts_liked"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='user',
-            name='is_staff',
+            model_name="user",
+            name="is_staff",
             field=models.BooleanField(default=False),
         ),
     ]
